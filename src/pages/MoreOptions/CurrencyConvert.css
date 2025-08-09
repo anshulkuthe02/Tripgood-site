@@ -1,0 +1,85 @@
+.converter-container {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: linear-gradient(135deg, #f1f8ff, #ffffff);
+  border-radius: 16px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+.converter-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #0077b6;
+  margin-bottom: 1.5rem;
+}
+
+.converter-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input-group label {
+  font-weight: 600;
+  color: #023e8a;
+}
+
+.input-group input,
+.input-group select {
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 2px solid #dee2e6;
+  transition: border 0.3s ease;
+}
+
+.input-group input:focus,
+.input-group select:focus {
+  border-color: #0077b6;
+  outline: none;
+}
+
+.currency-selectors {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.result-box {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #003566;
+  background-color: #e3f2fd;
+  padding: 1rem;
+  border-radius: 10px;
+  transition: background 0.4s ease;
+}
+
+.result-box span {
+  color: #0077b6;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .currency-selectors {
+    flex-direction: column;
+  }
+
+  .converter-container {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+}

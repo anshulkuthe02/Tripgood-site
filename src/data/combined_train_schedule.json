@@ -1,0 +1,179 @@
+[
+  {
+    "train_no": "12301",
+    "train_name": "RAJDHANI EXPRESS",
+    "zone": "NR",
+    "type": "Superfast",
+    "from_station_code": "NZM",
+    "to_station_code": "CSMT",
+    "fares": {
+      "GN": 500,
+      "SL": 750,
+      "3A": 2050,
+      "2A": 2950,
+      "1A": 4550
+    },
+    "schedule": [
+      {
+        "train_no": "12301",
+        "station_code": "NZM",
+        "station_name": "NEW DELHI",
+        "arrival_time": "SOURCE",
+        "departure_time": "16:55",
+        "distance": 0,
+        "day": 1
+      },
+      {
+        "train_no": "12301",
+        "station_code": "AGC",
+        "station_name": "AGRA CANTT",
+        "arrival_time": "18:30",
+        "departure_time": "18:35",
+        "distance": 195,
+        "day": 1
+      },
+      {
+        "train_no": "12301",
+        "station_code": "GWL",
+        "station_name": "GWALIOR",
+        "arrival_time": "20:10",
+        "departure_time": "20:12",
+        "distance": 305,
+        "day": 1
+      },
+      {
+        "train_no": "12301",
+        "station_code": "VGLJ",
+        "station_name": "VIRANGANA LAKSHMIBAI JHANSI",
+        "arrival_time": "22:00",
+        "departure_time": "22:05",
+        "distance": 403,
+        "day": 1
+      },
+      {
+        "train_no": "12301",
+        "station_code": "BPL",
+        "station_name": "BHOPAL JN",
+        "arrival_time": "01:00",
+        "departure_time": "01:05",
+        "distance": 700,
+        "day": 2
+      },
+      {
+        "train_no": "12301",
+        "station_code": "BSL",
+        "station_name": "BHUSAVAL JN",
+        "arrival_time": "04:15",
+        "departure_time": "04:20",
+        "distance": 1015,
+        "day": 2
+      },
+      {
+        "train_no": "12301",
+        "station_code": "JL",
+        "station_name": "JALGAON JN",
+        "arrival_time": "05:00",
+        "departure_time": "05:02",
+        "distance": 1075,
+        "day": 2
+      },
+      {
+        "train_no": "12301",
+        "station_code": "NK",
+        "station_name": "NASIK ROAD",
+        "arrival_time": "06:30",
+        "departure_time": "06:35",
+        "distance": 1210,
+        "day": 2
+      },
+      {
+        "train_no": "12301",
+        "station_code": "KYN",
+        "station_name": "KALYAN JN",
+        "arrival_time": "07:45",
+        "departure_time": "07:50",
+        "distance": 1325,
+        "day": 2
+      },
+      {
+        "train_no": "12301",
+        "station_code": "CSMT",
+        "station_name": "CHHATRAPATI SHIVAJI MAHARAJ TERMINUS",
+        "arrival_time": "08:35",
+        "departure_time": "DEST",
+        "distance": 1384,
+        "day": 2
+      }
+    ]
+  },
+  {
+  "train_no": "12216",
+  "train_name": "GARIB RATH",
+  "zone": "NR",
+  "type": "Express",
+  "from_station_code": "NZM",
+  "to_station_code": "LKO",
+  "fares": {
+    "GN": 250,
+    "SL": 400,
+    "CC": 650,
+    "3A": 780
+  },
+  "schedule": [
+    {
+      "train_no": "12216",
+      "station_code": "NZM",
+      "station_name": "NEW DELHI",
+      "arrival_time": "SOURCE",
+      "departure_time": "20:30",
+      "distance": 0,
+      "day": 1
+    },
+    {
+      "train_no": "12216",
+      "station_code": "HPU",
+      "station_name": "HAPUR JUNCTION",
+      "arrival_time": "22:00",
+      "departure_time": "22:02",
+      "distance": 70,
+      "day": 1
+    },
+    {
+      "train_no": "12216",
+      "station_code": "MB",
+      "station_name": "MORADABAD JUNCTION",
+      "arrival_time": "23:15",
+      "departure_time": "23:20",
+      "distance": 160,
+      "day": 1
+    },
+    {
+      "train_no": "12216",
+      "station_code": "BE",
+      "station_name": "BAREILLY JUNCTION",
+      "arrival_time": "01:05",
+      "departure_time": "01:10",
+      "distance": 255,
+      "day": 2
+    },
+    {
+      "train_no": "12216",
+      "station_code": "HRI",
+      "station_name": "HARDOI JUNCTION",
+      "arrival_time": "03:20",
+      "departure_time": "03:22",
+      "distance": 375,
+      "day": 2
+    },
+    {
+      "train_no": "12216",
+      "station_code": "LKO",
+      "station_name": "LUCKNOW CHARBAGH NR",
+      "arrival_time": "05:00",
+      "departure_time": "DEST",
+      "distance": 500,
+      "day": 2
+    }
+  ]
+}
+]

@@ -1,0 +1,211 @@
+.train-page {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 2rem 2.5rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.train-page h1 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 1.2rem;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  display: block;
+  color: #555;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.search-btn {
+  background-color: #2e3c4b;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background-color: #0056b3;
+}
+
+.results-box {
+  margin-top: 2rem;
+  background: #f8f8f8;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.result-item {
+  border-bottom: 1px solid #ddd;
+  padding: 0.8rem 0;
+}
+.train-card {
+  background: #1f2937;
+  color: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.train-number {
+  background: #374151;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.times {
+  font-size: 0.95rem;
+}
+
+.price {
+  font-weight: 600;
+  color: #10b981;
+}
+
+.train-name {
+  margin-top: 6px;
+  font-size: 1rem;
+  color: #d1d5db;
+}
+
+.status {
+  font-size: 0.8rem;
+  color: #9ca3af;
+  margin-top: 4px;
+}
+
+.days-row {
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
+  font-size: 0.85rem;
+  color: #9ca3af;
+}
+
+.day.today {
+  font-weight: bold;
+  color: #3b82f6;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 700px;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.animated-fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.close-btn {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  font-size: 1.5rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.schedule-list {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.stop-card {
+  background: #f7f7f7;
+  border-radius: 10px;
+  padding: 1rem;
+  border-left: 5px solid #007bff;
+  transition: transform 0.2s;
+}
+
+.stop-card:hover {
+  transform: scale(1.02);
+}
+
+.stop-header .station-name {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.stop-header .code {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.stop-details {
+  margin-top: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 0.6rem;
+  font-size: 0.95rem;
+}

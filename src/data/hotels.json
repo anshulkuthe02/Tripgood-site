@@ -1,0 +1,272 @@
+[
+  {
+    "name": "Ocean Suites",
+    "location": "Mumbai",
+    "rating": 4.7,
+    "price": 3820,
+    "type": "Resort",
+    "description": "Luxurious interiors and sea-facing rooms.",
+    "image": "https://picsum.photos/seed/hotel0/400/250"
+  },
+  {
+    "name": "Sunset Villa",
+    "location": "Chennai",
+    "rating": 3.6,
+    "price": 4360,
+    "type": "Boutique",
+    "description": "Offers cozy stays with top-rated amenities.",
+    "image": "https://picsum.photos/seed/hotel1/400/250"
+  },
+  {
+    "name": "Palm Suites",
+    "location": "Chennai",
+    "rating": 3.6,
+    "price": 2176,
+    "type": "Homestay",
+    "description": "Perfect for families and couples seeking comfort.",
+    "image": "https://picsum.photos/seed/hotel2/400/250"
+  },
+  {
+    "name": "City Inn",
+    "location": "Udaipur",
+    "rating": 3.6,
+    "price": 4505,
+    "type": "Lodge",
+    "description": "Well-connected, affordable, and relaxing.",
+    "image": "https://picsum.photos/seed/hotel3/400/250"
+  },
+  {
+    "name": "Grand Retreat",
+    "location": "Shimla",
+    "rating": 4.7,
+    "price": 2922,
+    "type": "Luxury",
+    "description": "Ideal for backpackers and solo travelers.",
+    "image": "https://picsum.photos/seed/hotel4/400/250"
+  },
+  {
+    "name": "Ocean Stay",
+    "location": "Manali",
+    "rating": 4.8,
+    "price": 1543,
+    "type": "Luxury",
+    "description": "Modern facilities with a traditional charm.",
+    "image": "https://picsum.photos/seed/hotel5/400/250"
+  },
+  {
+    "name": "Heritage Villa",
+    "location": "Kolkata",
+    "rating": 4.1,
+    "price": 1623,
+    "type": "Boutique",
+    "description": "Surrounded by scenic landscapes and greenery.",
+    "image": "https://picsum.photos/seed/hotel6/400/250"
+  },
+  {
+    "name": "Palm Suites",
+    "location": "Chennai",
+    "rating": 3.9,
+    "price": 3908,
+    "type": "Homestay",
+    "description": "Surrounded by scenic landscapes and greenery.",
+    "image": "https://picsum.photos/seed/hotel7/400/250"
+  },
+  {
+    "name": "Grand Suites",
+    "location": "Udaipur",
+    "rating": 3.9,
+    "price": 809,
+    "type": "Boutique",
+    "description": "Enjoy breathtaking views and serene mornings.",
+    "image": "https://picsum.photos/seed/hotel8/400/250"
+  },
+  {
+    "name": "Grand Inn",
+    "location": "Mumbai",
+    "rating": 4.9,
+    "price": 4253,
+    "type": "Boutique",
+    "description": "A peaceful escape with premium hospitality.",
+    "image": "https://picsum.photos/seed/hotel9/400/250"
+  },
+  {
+    "name": "Royal Suites",
+    "location": "Chennai",
+    "rating": 3.8,
+    "price": 2655,
+    "type": "Hostel",
+    "description": "Offers cozy stays with top-rated amenities.",
+    "image": "https://picsum.photos/seed/hotel10/400/250"
+  },
+  {
+    "name": "Hill Retreat",
+    "location": "Kolkata",
+    "rating": 5.0,
+    "price": 4433,
+    "type": "Homestay",
+    "description": "Offers cozy stays with top-rated amenities.",
+    "image": "https://picsum.photos/seed/hotel11/400/250"
+  },
+  {
+    "name": "Sunset Nest",
+    "location": "Manali",
+    "rating": 4.2,
+    "price": 4071,
+    "type": "Homestay",
+    "description": "Offers cozy stays with top-rated amenities.",
+    "image": "https://picsum.photos/seed/hotel12/400/250"
+  },
+  {
+    "name": "City Nest",
+    "location": "Udaipur",
+    "rating": 4.6,
+    "price": 1775,
+    "type": "Boutique",
+    "description": "Perfect for families and couples seeking comfort.",
+    "image": "https://picsum.photos/seed/hotel13/400/250"
+  },
+  {
+    "name": "Royal Nest",
+    "location": "Jaipur",
+    "rating": 3.7,
+    "price": 3437,
+    "type": "Luxury",
+    "description": "Surrounded by scenic landscapes and greenery.",
+    "image": "https://picsum.photos/seed/hotel14/400/250"
+  },
+  {
+    "name": "Palm Stay",
+    "location": "Kerala",
+    "rating": 4.8,
+    "price": 3387,
+    "type": "Hostel",
+    "description": "Perfect for families and couples seeking comfort.",
+    "image": "https://picsum.photos/seed/hotel15/400/250"
+  },
+  {
+    "name": "Grand Inn",
+    "location": "Shimla",
+    "rating": 3.8,
+    "price": 3771,
+    "type": "Hostel",
+    "description": "Close to local markets and cultural attractions.",
+    "image": "https://picsum.photos/seed/hotel16/400/250"
+  },
+  {
+    "name": "Ocean Suites",
+    "location": "Mumbai",
+    "rating": 3.6,
+    "price": 2952,
+    "type": "Resort",
+    "description": "Luxurious interiors and sea-facing rooms.",
+    "image": "https://picsum.photos/seed/hotel17/400/250"
+  },
+  {
+    "name": "Heritage Nest",
+    "location": "Mumbai",
+    "rating": 4.8,
+    "price": 3191,
+    "type": "Hostel",
+    "description": "Ideal for backpackers and solo travelers.",
+    "image": "https://picsum.photos/seed/hotel18/400/250"
+  },
+  {
+    "name": "Palm Lodge",
+    "location": "Kolkata",
+    "rating": 4.9,
+    "price": 3161,
+    "type": "Resort",
+    "description": "Enjoy breathtaking views and serene mornings.",
+    "image": "https://picsum.photos/seed/hotel19/400/250"
+  },
+  {
+    "name": "Hill Suites",
+    "location": "Chennai",
+    "rating": 4.0,
+    "price": 1705,
+    "type": "Luxury",
+    "description": "Enjoy breathtaking views and serene mornings.",
+    "image": "https://picsum.photos/seed/hotel20/400/250"
+  },
+  {
+    "name": "Royal Suites",
+    "location": "Udaipur",
+    "rating": 3.6,
+    "price": 4167,
+    "type": "Homestay",
+    "description": "Enjoy breathtaking views and serene mornings.",
+    "image": "https://picsum.photos/seed/hotel21/400/250"
+  },
+  {
+    "name": "Royal Inn",
+    "location": "Delhi",
+    "rating": 4.0,
+    "price": 2287,
+    "type": "Luxury",
+    "description": "Ideal for backpackers and solo travelers.",
+    "image": "https://picsum.photos/seed/hotel22/400/250"
+  },
+  {
+    "name": "Palm Suites",
+    "location": "Delhi",
+    "rating": 4.4,
+    "price": 963,
+    "type": "Luxury",
+    "description": "Well-connected, affordable, and relaxing.",
+    "image": "https://picsum.photos/seed/hotel23/400/250"
+  },
+  {
+    "name": "City Resort",
+    "location": "Chennai",
+    "rating": 4.4,
+    "price": 4433,
+    "type": "Resort",
+    "description": "Well-connected, affordable, and relaxing.",
+    "image": "https://picsum.photos/seed/hotel24/400/250"
+  },
+  {
+    "name": "Ocean Nest",
+    "location": "Kerala",
+    "rating": 3.7,
+    "price": 4809,
+    "type": "Homestay",
+    "description": "Close to local markets and cultural attractions.",
+    "image": "https://picsum.photos/seed/hotel25/400/250"
+  },
+  {
+    "name": "Sunset Resort",
+    "location": "Shimla",
+    "rating": 4.1,
+    "price": 4768,
+    "type": "Hostel",
+    "description": "Close to local markets and cultural attractions.",
+    "image": "https://picsum.photos/seed/hotel26/400/250"
+  },
+  {
+    "name": "Hill Lodge",
+    "location": "Kerala",
+    "rating": 4.2,
+    "price": 4516,
+    "type": "Homestay",
+    "description": "Well-connected, affordable, and relaxing.",
+    "image": "https://picsum.photos/seed/hotel27/400/250"
+  },
+  {
+    "name": "Hill Stay",
+    "location": "Goa",
+    "rating": 4.8,
+    "price": 3491,
+    "type": "Homestay",
+    "description": "Modern facilities with a traditional charm.",
+    "image": "https://picsum.photos/seed/hotel28/400/250"
+  },
+  {
+    "name": "Grand Retreat",
+    "location": "Mumbai",
+    "rating": 5.0,
+    "price": 3127,
+    "type": "Resort",
+    "description": "Enjoy breathtaking views and serene mornings.",
+    "image": "https://picsum.photos/seed/hotel29/400/250"
+  }
+]

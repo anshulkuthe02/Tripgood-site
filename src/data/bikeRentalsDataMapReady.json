@@ -1,0 +1,422 @@
+[
+  {
+    "name": "Speedy Wheels Garage",
+    "phone": "+91 9876543210",
+    "address": "Dharampeth, Nagpur",
+    "services": [
+      "Activa 5G",
+      "Royal Enfield",
+      "Yamaha R15"
+    ],
+    "rating": 4.6,
+    "availableBikes": 12,
+    "lat": 21.137192,
+    "lon": 79.103133
+  },
+  {
+    "name": "Nagpur MotoRent",
+    "phone": "+91 9321045678",
+    "address": "Sitabardi, Nagpur",
+    "services": [
+      "TVS Ntorq",
+      "Avenger Street",
+      "Pulsar NS200"
+    ],
+    "rating": 4.3,
+    "availableBikes": 9,
+    "lat": 21.134422,
+    "lon": 79.107318
+  },
+  {
+    "name": "Orange City Riders",
+    "phone": "+91 9890011223",
+    "address": "Trimurti Nagar, Nagpur",
+    "services": [
+      "FZ V3",
+      "KTM Duke",
+      "Hero Maestro"
+    ],
+    "rating": 4.8,
+    "availableBikes": 14,
+    "lat": 21.139872,
+    "lon": 79.093481
+  },
+  {
+    "name": "Zippy Bikes",
+    "phone": "+91 9112345678",
+    "address": "Pratap Nagar, Nagpur",
+    "services": [
+      "Activa 6G",
+      "Apache RTR",
+      "Suzuki Access"
+    ],
+    "rating": 4.4,
+    "availableBikes": 11,
+    "lat": 21.153315,
+    "lon": 79.090506
+  },
+  {
+    "name": "Metro Motors Rentals",
+    "phone": "+91 9350007890",
+    "address": "Manish Nagar, Nagpur",
+    "services": [
+      "Bullet Classic",
+      "Bajaj Chetak",
+      "TVS iQube"
+    ],
+    "rating": 4.7,
+    "availableBikes": 10,
+    "lat": 21.132207,
+    "lon": 79.101318
+  },
+  {
+    "name": "Thunder Wheels",
+    "phone": "+91 9623451230",
+    "address": "Ram Nagar, Nagpur",
+    "services": [
+      "Yamaha MT-15",
+      "Dominar 400",
+      "Access 125"
+    ],
+    "rating": 4.2,
+    "availableBikes": 8,
+    "lat": 21.1282,
+    "lon": 79.085347
+  },
+  {
+    "name": "City Bike Zone",
+    "phone": "+91 8821056789",
+    "address": "Ambazari, Nagpur",
+    "services": [
+      "Honda Dio",
+      "FZ S",
+      "Bullet Electra"
+    ],
+    "rating": 4.5,
+    "availableBikes": 13,
+    "lat": 21.16035,
+    "lon": 79.07244
+  },
+  {
+    "name": "RideAway Rentals",
+    "phone": "+91 8123456789",
+    "address": "Lakadganj, Nagpur",
+    "services": [
+      "Activa 4G",
+      "Jupiter",
+      "Vespa LX"
+    ],
+    "rating": 4.1,
+    "availableBikes": 7,
+    "lat": 21.161791,
+    "lon": 79.079732
+  },
+  {
+    "name": "Turbo Bikes",
+    "phone": "+91 9501234567",
+    "address": "Civil Lines, Nagpur",
+    "services": [
+      "Yamaha Ray",
+      "Splendor",
+      "Glamour"
+    ],
+    "rating": 4.6,
+    "availableBikes": 15,
+    "lat": 21.160788,
+    "lon": 79.085848
+  },
+  {
+    "name": "Nagpur Scooty Hub",
+    "phone": "+91 9023456677",
+    "address": "Wardhaman Nagar, Nagpur",
+    "services": [
+      "TVS Pep+",
+      "Activa 6G",
+      "Suzuki Burgman"
+    ],
+    "rating": 4.4,
+    "availableBikes": 6,
+    "lat": 21.133033,
+    "lon": 79.106442
+  },
+  {
+    "name": "Vendor 11 Garage",
+    "phone": "+91 9000000011",
+    "address": "Area 11, Nagpur",
+    "services": [
+      "Bike A",
+      "Bike B",
+      "Bike C"
+    ],
+    "rating": 4.1,
+    "availableBikes": 6,
+    "lat": 21.158798,
+    "lon": 79.072
+  },
+  {
+    "name": "Vendor 12 Garage",
+    "phone": "+91 9000000012",
+    "address": "Area 12, Nagpur",
+    "services": [
+      "Bike A",
+      "Bike B",
+      "Bike C"
+    ],
+    "rating": 4.2,
+    "availableBikes": 7,
+    "lat": 21.14387,
+    "lon": 79.085279
+  },
+  {
+    "name": "Vendor 13 Garage",
+    "phone": "+91 9000000013",
+    "address": "Area 13, Nagpur",
+    "services": [
+      "Bike A",
+      "Bike B",
+      "Bike C"
+    ],
+    "rating": 4.3,
+    "availableBikes": 8,
+    "lat": 21.163444,
+    "lon": 79.084917
+  },
+  {
+    "name": "Vendor 14 Garage",
+    "phone": "+91 9000000014",
+    "address": "Area 14, Nagpur",
+    "services": [
+      "Bike A",
+      "Bike B",
+      "Bike C"
+    ],
+    "rating": 4.4,
+    "availableBikes": 9,
+    "lat": 21.131239,
+    "lon": 79.088189
+  },
+  {
+    "name": "Vendor 15 Garage",
+    "phone": "+91 9000000015",
+    "address": "Area 15, Nagpur",
+    "services": [
+      "Bike A",
+      "Bike B",
+      "Bike C"
+    ],
+    "rating": 4.0,
+    "availableBikes": 10,
+    "lat": 21.161802,
+    "lon": 79.092957
+  },
+  {
+    "name": "Vendor 16 Garage",
+    "phone": "+91 9000000016",
+    "address": "Area 16, Nagpur",
+    "services": [
+      "Bike A",
+      "Bike B",
+      "Bike C"
+    ],
+    "rating": 4.1,
+    "availableBikes": 11,
+    "lat": 21.136329,
+    "lon": 79.107341
+  },
+  {
+    "name": "Vendor 17 Garage",
+    "phone": "+91 9000000017",
+    "address": "Area 17, Nagpur",
+    "services": [
+      "Bike A",
+      "Bike B",
+      "Bike C"
+    ],
+    "rating": 4.2,
+    "availableBikes": 12,
+    "lat": 21.161691,
+    "lon": 79.07507
+  },
+  {
+    "name": "Vendor 18 Garage",
+    "phone": "+91 9000000018",
+    "address": "Area 18, Nagpur",
+    "services": [
+      "Bike A",
+      "Bike B",
+      "Bike C"
+    ],
+    "rating": 4.3,
+    "availableBikes": 13,
+    "lat": 21.131537,
+    "lon": 79.094073
+  },
+  {
+    "name": "Vendor 19 Garage",
+    "phone": "+91 9000000019",
+    "address": "Area 19, Nagpur",
+    "services": [
+      "Bike A",
+      "Bike B",
+      "Bike C"
+    ],
+    "rating": 4.4,
+    "availableBikes": 14,
+    "lat": 21.144563,
+    "lon": 79.072324
+  },
+  {
+    "name": "Vendor 20 Garage",
+    "phone": "+91 9000000020",
+    "address": "Area 20, Nagpur",
+    "services": [
+      "Bike A",
+      "Bike B",
+      "Bike C"
+    ],
+    "rating": 4.0,
+    "availableBikes": 5,
+    "lat": 21.134677,
+    "lon": 79.101265
+  },
+  {
+    "name": "Vendor 21 Garage",
+    "phone": "+91 9000000021",
+    "address": "Area 21, Nagpur",
+    "services": [
+      "Bike A",
+      "Bike B",
+      "Bike C"
+    ],
+    "rating": 4.1,
+    "availableBikes": 6,
+    "lat": 21.139295,
+    "lon": 79.088292
+  },
+  {
+    "name": "Vendor 22 Garage",
+    "phone": "+91 9000000022",
+    "address": "Area 22, Nagpur",
+    "services": [
+      "Bike A",
+      "Bike B",
+      "Bike C"
+    ],
+    "rating": 4.2,
+    "availableBikes": 7,
+    "lat": 21.139698,
+    "lon": 79.087897
+  },
+  {
+    "name": "Vendor 23 Garage",
+    "phone": "+91 9000000023",
+    "address": "Area 23, Nagpur",
+    "services": [
+      "Bike A",
+      "Bike B",
+      "Bike C"
+    ],
+    "rating": 4.3,
+    "availableBikes": 8,
+    "lat": 21.130608,
+    "lon": 79.081105
+  },
+  {
+    "name": "Vendor 24 Garage",
+    "phone": "+91 9000000024",
+    "address": "Area 24, Nagpur",
+    "services": [
+      "Bike A",
+      "Bike B",
+      "Bike C"
+    ],
+    "rating": 4.4,
+    "availableBikes": 9,
+    "lat": 21.161703,
+    "lon": 79.09414
+  },
+  {
+    "name": "Vendor 25 Garage",
+    "phone": "+91 9000000025",
+    "address": "Area 25, Nagpur",
+    "services": [
+      "Bike A",
+      "Bike B",
+      "Bike C"
+    ],
+    "rating": 4.0,
+    "availableBikes": 10,
+    "lat": 21.149202,
+    "lon": 79.082615
+  },
+  {
+    "name": "Vendor 26 Garage",
+    "phone": "+91 9000000026",
+    "address": "Area 26, Nagpur",
+    "services": [
+      "Bike A",
+      "Bike B",
+      "Bike C"
+    ],
+    "rating": 4.1,
+    "availableBikes": 11,
+    "lat": 21.147362,
+    "lon": 79.106487
+  },
+  {
+    "name": "Vendor 27 Garage",
+    "phone": "+91 9000000027",
+    "address": "Area 27, Nagpur",
+    "services": [
+      "Bike A",
+      "Bike B",
+      "Bike C"
+    ],
+    "rating": 4.2,
+    "availableBikes": 12,
+    "lat": 21.130074,
+    "lon": 79.100041
+  },
+  {
+    "name": "Vendor 28 Garage",
+    "phone": "+91 9000000028",
+    "address": "Area 28, Nagpur",
+    "services": [
+      "Bike A",
+      "Bike B",
+      "Bike C"
+    ],
+    "rating": 4.3,
+    "availableBikes": 13,
+    "lat": 21.132303,
+    "lon": 79.078576
+  },
+  {
+    "name": "Vendor 29 Garage",
+    "phone": "+91 9000000029",
+    "address": "Area 29, Nagpur",
+    "services": [
+      "Bike A",
+      "Bike B",
+      "Bike C"
+    ],
+    "rating": 4.4,
+    "availableBikes": 14,
+    "lat": 21.130089,
+    "lon": 79.094172
+  },
+  {
+    "name": "Vendor 30 Garage",
+    "phone": "+91 9000000030",
+    "address": "Area 30, Nagpur",
+    "services": [
+      "Bike A",
+      "Bike B",
+      "Bike C"
+    ],
+    "rating": 4.0,
+    "availableBikes": 5,
+    "lat": 21.125814,
+    "lon": 79.068722
+  }
+]

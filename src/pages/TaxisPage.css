@@ -1,0 +1,93 @@
+.taxi-page {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.taxi-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.taxi-card {
+  display: flex;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.taxi-card:hover {
+  transform: scale(1.01);
+}
+
+.taxi-card img {
+  width: 320px;
+  height: auto;
+  object-fit: cover;
+}
+
+.taxi-details {
+  flex: 1;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.taxi-details h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.type-tag {
+  font-family: cursive;
+  background: #fdec01;
+  color: #000000;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.taxi-details p {
+  margin: 6px 0;
+  font-size: 0.95rem;
+  color: #374151;
+}
+
+.driver-info {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #1f2937;
+  font-weight: 500;
+}
+
+.driver-phone {
+  font-size: 0.9rem;
+  color: #4b5563;
+  margin-top: 2px;
+}
+
+.book-now {
+  margin-top: 1rem;
+  padding: 8px 16px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: background-color 0.3s ease;
+}
+
+.book-now:hover {
+  background-color: #4338ca;
+}

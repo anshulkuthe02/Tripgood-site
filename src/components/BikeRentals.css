@@ -1,0 +1,90 @@
+/* Enhanced Bike Rentals Styles */
+.bike-rentals-wrapper {
+  padding: 40px;
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(168, 85, 247, 0.1));
+  backdrop-filter: blur(10px);
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+}
+
+.bike-heading {
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 30px;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.bike-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.bike-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 20px;
+  width: 320px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  border-left: 5px solid #facc15;
+  color: #ffffff;
+}
+
+.bike-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.bike-card:hover {
+  transform: scale(1.04);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.bike-card h3 {
+  color: #0f172a;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.bike-card p {
+  font-size: 14px;
+  color: #334155;
+  margin: 5px 0;
+}
+
+.map-wrapper {
+  padding: 40px;
+  background: linear-gradient(to right, #fffbea, #fdf7c0);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.map-heading {
+  font-size: 28px;
+  color: #1e3a8a;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.map-container {
+  width: 100%;
+  height: 80vh;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.popup-content {
+  font-size: 14px;
+  color: #1e293b;
+  max-width: 220px;
+}
+.popup-content h3 {
+  font-size: 16px;
+  color: #1e40af;
+  margin-bottom: 8px;
+}

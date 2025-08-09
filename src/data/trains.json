@@ -1,0 +1,18 @@
+[
+  {
+    "train_no": "12301",
+    "train_name": "RAJDHANI EXPRESS",
+    "zone": "NR",
+    "type": "Superfast",
+    "from_station_code": "NDLS",
+    "to_station_code": "BCT"
+  },
+  {
+    "train_no": "12216",
+    "train_name": "GARIB RATH",
+    "zone": "NR",
+    "type": "Express",
+    "from_station_code": "NDLS",
+    "to_station_code": "LKO"
+  }
+]

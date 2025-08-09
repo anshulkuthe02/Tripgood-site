@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "type": "Clinic",
+    "name": "Clinic 382",
+    "location": { "lat": 21.156134, "lng": 79.077962 },
+    "phoneNumbers": ["0712-1003329", "0712-4538721", "0712-3174063"],
+    "doctors": ["Dr. A1", "Dr. B1"],
+    "services": ["Consultation", "Diagnostics", "Emergency"],
+    "reviews": [{ "user": "User1", "rating": 3.8, "comment": "Clinic 1 is helpful and reliable." }]
+  },
+  {
+    "id": 2,
+    "type": "Medical Store",
+    "name": "Medical Store 614",
+    "location": { "lat": 21.137995, "lng": 79.079961 },
+    "phoneNumbers": ["0712-1249585", "0712-3493846", "0712-6319835"],
+    "doctors": [],
+    "services": ["Medicines", "OTC Drugs", "First Aid"],
+    "reviews": [{ "user": "User2", "rating": 4.2, "comment": "Medical Store 2 is helpful and reliable." }]
+  },
+  {
+    "id": 3,
+    "type": "Hospital",
+    "name": "Hospital 773",
+    "location": { "lat": 21.130736, "lng": 79.084813 },
+    "phoneNumbers": ["0712-4396247", "0712-9678106", "0712-4375781"],
+    "doctors": ["Dr. A3", "Dr. B3"],
+    "services": ["Consultation", "Diagnostics", "Emergency"],
+    "reviews": [{ "user": "User3", "rating": 4.9, "comment": "Hospital 3 is helpful and reliable." }]
+  },
+  {
+    "id": 4,
+    "type": "Druggist",
+    "name": "Druggist 409",
+    "location": { "lat": 21.160199, "lng": 79.087118 },
+    "phoneNumbers": ["0712-8679231", "0712-9627349", "0712-7654192"],
+    "doctors": [],
+    "services": ["Medicines", "OTC Drugs", "First Aid"],
+    "reviews": [{ "user": "User4", "rating": 4.0, "comment": "Druggist 4 is helpful and reliable." }]
+  },
+  {
+    "id": 5,
+    "type": "Clinic",
+    "name": "Clinic 469",
+    "location": { "lat": 21.154048, "lng": 79.097655 },
+    "phoneNumbers": ["0712-6470210", "0712-2873603", "0712-2993003"],
+    "doctors": ["Dr. A5", "Dr. B5"],
+    "services": ["Consultation", "Diagnostics", "Emergency"],
+    "reviews": [{ "user": "User5", "rating": 4.2, "comment": "Clinic 5 is helpful and reliable." }]
+  },
+  {
+    "id": 6,
+    "type": "Hospital",
+    "name": "Hospital 584",
+    "location": { "lat": 21.157139, "lng": 79.0723 },
+    "phoneNumbers": ["0712-1286494", "0712-2160132", "0712-8844282"],
+    "doctors": ["Dr. A6", "Dr. B6"],
+    "services": ["Consultation", "Diagnostics", "Emergency"],
+    "reviews": [{ "user": "User6", "rating": 4.7, "comment": "Hospital 6 is helpful and reliable." }]
+  },
+  {
+    "id": 7,
+    "type": "Medical Store",
+    "name": "Medical Store 348",
+    "location": { "lat": 21.130576, "lng": 79.084865 },
+    "phoneNumbers": ["0712-1246542", "0712-5367485", "0712-7644295"],
+    "doctors": [],
+    "services": ["Medicines", "OTC Drugs", "First Aid"],
+    "reviews": [{ "user": "User7", "rating": 4.0, "comment": "Medical Store 7 is helpful and reliable." }]
+  },
+  {
+    "id": 8,
+    "type": "Druggist",
+    "name": "Druggist 167",
+    "location": { "lat": 21.126246, "lng": 79.063423 },
+    "phoneNumbers": ["0712-6975340", "0712-7082815", "0712-9384527"],
+    "doctors": [],
+    "services": ["Medicines", "OTC Drugs", "First Aid"],
+    "reviews": [{ "user": "User8", "rating": 3.7, "comment": "Druggist 8 is helpful and reliable." }]
+  },
+  {
+    "id": 9,
+    "type": "Clinic",
+    "name": "Clinic 837",
+    "location": { "lat": 21.155141, "lng": 79.099166 },
+    "phoneNumbers": ["0712-5078389", "0712-1239412", "0712-6549114"],
+    "doctors": ["Dr. A9", "Dr. B9"],
+    "services": ["Consultation", "Diagnostics", "Emergency"],
+    "reviews": [{ "user": "User9", "rating": 4.5, "comment": "Clinic 9 is helpful and reliable." }]
+  },
+  {
+    "id": 10,
+    "type": "Hospital",
+    "name": "Hospital 289",
+    "location": { "lat": 21.161253, "lng": 79.070866 },
+    "phoneNumbers": ["0712-4183485", "0712-5678236", "0712-6791401"],
+    "doctors": ["Dr. A10", "Dr. B10"],
+    "services": ["Consultation", "Diagnostics", "Emergency"],
+    "reviews": [{ "user": "User10", "rating": 4.8, "comment": "Hospital 10 is helpful and reliable." }]
+  }
+]

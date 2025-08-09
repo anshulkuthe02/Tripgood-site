@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Sitabuldi Police Station",
+    "address": "Mahatma Gandhi Road, Sitabuldi, Nagpur",
+    "phone": "0712-2560200",
+    "lat": 21.149813,
+    "lng": 79.084942
+  },
+  {
+    "name": "Sadar Police Station",
+    "address": "Sadar Bazar, Nagpur",
+    "phone": "0712-2541048",
+    "lat": 21.158058,
+    "lng": 79.095304
+  },
+  {
+    "name": "Ganeshpeth Police Station",
+    "address": "Near ST Bus Stand, Ganeshpeth, Nagpur",
+    "phone": "0712-2732656",
+    "lat": 21.141983,
+    "lng": 79.096761
+  },
+  {
+    "name": "Dhantoli Police Station",
+    "address": "Kingsway Road, Dhantoli, Nagpur",
+    "phone": "0712-2421010",
+    "lat": 21.139871,
+    "lng": 79.082405
+  },
+  {
+    "name": "Ambazari Police Station",
+    "address": "Ambazari Road, Nagpur",
+    "phone": "0712-2533960",
+    "lat": 21.139545,
+    "lng": 79.048669
+  },
+  {
+    "name": "Bajaj Nagar Police Station",
+    "address": "Bajaj Nagar, Nagpur",
+    "phone": "0712-2240500",
+    "lat": 21.123871,
+    "lng": 79.060819
+  },
+  {
+    "name": "MIDC Police Station",
+    "address": "Hingna Road, MIDC, Nagpur",
+    "phone": "0712-2222000",
+    "lat": 21.113147,
+    "lng": 79.006202
+  },
+  {
+    "name": "Pratap Nagar Police Station",
+    "address": "Ring Road, Pratap Nagar, Nagpur",
+    "phone": "0712-2235656",
+    "lat": 21.112456,
+    "lng": 79.076218
+  },
+  {
+    "name": "Panchpaoli Police Station",
+    "address": "Panchpaoli, Nagpur",
+    "phone": "0712-2712600",
+    "lat": 21.162681,
+    "lng": 79.114759
+  },
+  {
+    "name": "Lakadganj Police Station",
+    "address": "Lakadganj, Nagpur",
+    "phone": "0712-2741333",
+    "lat": 21.149942,
+    "lng": 79.122702
+  }
+]

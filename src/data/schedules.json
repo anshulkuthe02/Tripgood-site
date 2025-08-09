@@ -1,0 +1,38 @@
+[
+  {
+    "train_no": "12301",
+    "station_code": "NDLS",
+    "station_name": "NEW DELHI",
+    "arrival_time": "SOURCE",
+    "departure_time": "16:55",
+    "distance": 0,
+    "day": 1
+  },
+  {
+    "train_no": "12301",
+    "station_code": "BCT",
+    "station_name": "MUMBAI CENTRAL",
+    "arrival_time": "08:35",
+    "departure_time": "DEST",
+    "distance": 1384,
+    "day": 2
+  },
+  {
+    "train_no": "12216",
+    "station_code": "NDLS",
+    "station_name": "NEW DELHI",
+    "arrival_time": "SOURCE",
+    "departure_time": "20:30",
+    "distance": 0,
+    "day": 1
+  },
+  {
+    "train_no": "12216",
+    "station_code": "LKO",
+    "station_name": "LUCKNOW NR",
+    "arrival_time": "05:00",
+    "departure_time": "DEST",
+    "distance": 500,
+    "day": 2
+  }
+]

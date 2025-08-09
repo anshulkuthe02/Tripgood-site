@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Anil Sharma",
+    "phone": "+91-9876543210",
+    "address": "123 Nagpur Street, Nagpur, MH",
+    "rating": 4.5,
+    "rate_per_km": 12,
+    "lat": 21.1458,
+    "lon": 79.0882
+  },
+  {
+    "name": "Ravi Verma",
+    "phone": "+91-9876543211",
+    "address": "456 Central Avenue, Nagpur, MH",
+    "rating": 4.2,
+    "rate_per_km": 10,
+    "lat": 21.1472,
+    "lon": 79.0901
+  },
+  {
+    "name": "Suresh Rao",
+    "phone": "+91-9876543212",
+    "address": "Plot 21, Ring Road, Nagpur",
+    "rating": 4.6,
+    "rate_per_km": 14,
+    "lat": 21.1445,
+    "lon": 79.0833
+  },
+  {
+    "name": "Manoj Patil",
+    "phone": "+91-9876543213",
+    "address": "Near Ramdaspeth, Nagpur",
+    "rating": 4.3,
+    "rate_per_km": 11,
+    "lat": 21.1422,
+    "lon": 79.0811
+  },
+  {
+    "name": "Vikas Mishra",
+    "phone": "+91-9876543214",
+    "address": "Mahal Area, Nagpur",
+    "rating": 4.4,
+    "rate_per_km": 13,
+    "lat": 21.1487,
+    "lon": 79.0858
+  },
+  {
+    "name": "Deepak Joshi",
+    "phone": "+91-9876543215",
+    "address": "Sadar, Nagpur",
+    "rating": 4.1,
+    "rate_per_km": 10,
+    "lat": 21.1418,
+    "lon": 79.0875
+  },
+  {
+    "name": "Ajay Kulkarni",
+    "phone": "+91-9876543216",
+    "address": "Dharampeth, Nagpur",
+    "rating": 4.7,
+    "rate_per_km": 15,
+    "lat": 21.1449,
+    "lon": 79.0827
+  },
+  {
+    "name": "Rohit Singh",
+    "phone": "+91-9876543217",
+    "address": "Subhash Nagar, Nagpur",
+    "rating": 4.0,
+    "rate_per_km": 11,
+    "lat": 21.1493,
+    "lon": 79.0805
+  },
+  {
+    "name": "Nitin Pawar",
+    "phone": "+91-9876543218",
+    "address": "Sitabuldi, Nagpur",
+    "rating": 4.5,
+    "rate_per_km": 12,
+    "lat": 21.1466,
+    "lon": 79.0899
+  },
+  {
+    "name": "Amit Jain",
+    "phone": "+91-9876543219",
+    "address": "Bajaj Nagar, Nagpur",
+    "rating": 4.3,
+    "rate_per_km": 14,
+    "lat": 21.1455,
+    "lon": 79.0864
+  },
+  {
+    "name": "Rajeev Kapoor",
+    "phone": "+91-9876543220",
+    "address": "Ganeshpeth Colony, Nagpur",
+    "rating": 4.2,
+    "rate_per_km": 13,
+    "lat": 21.1447,
+    "lon": 79.0911
+  },
+  {
+    "name": "Sanjay Gupta",
+    "phone": "+91-9876543221",
+    "address": "Itwari, Nagpur",
+    "rating": 4.1,
+    "rate_per_km": 11,
+    "lat": 21.1483,
+    "lon": 79.0935
+  },
+  {
+    "name": "Mahesh Reddy",
+    "phone": "+91-9876543222",
+    "address": "Manish Nagar, Nagpur",
+    "rating": 4.6,
+    "rate_per_km": 15,
+    "lat": 21.1399,
+    "lon": 79.0787
+  },
+  {
+    "name": "Dinesh Desai",
+    "phone": "+91-9876543223",
+    "address": "Civil Lines, Nagpur",
+    "rating": 4.7,
+    "rate_per_km": 12,
+    "lat": 21.1433,
+    "lon": 79.0921
+  },
+  {
+    "name": "Naresh Shah",
+    "phone": "+91-9876543224",
+    "address": "Jaripatka, Nagpur",
+    "rating": 4.0,
+    "rate_per_km": 10,
+    "lat": 21.1512,
+    "lon": 79.0819
+  },
+  {
+    "name": "Yogesh Parmar",
+    "phone": "+91-9876543225",
+    "address": "Reshim Bagh, Nagpur",
+    "rating": 4.4,
+    "rate_per_km": 13,
+    "lat": 21.1407,
+    "lon": 79.0888
+  },
+  {
+    "name": "Sumit Saxena",
+    "phone": "+91-9876543226",
+    "address": "Ambazari Layout, Nagpur",
+    "rating": 4.3,
+    "rate_per_km": 11,
+    "lat": 21.1463,
+    "lon": 79.0795
+  },
+  {
+    "name": "Alok Das",
+    "phone": "+91-9876543227",
+    "address": "Shankar Nagar, Nagpur",
+    "rating": 4.6,
+    "rate_per_km": 14,
+    "lat": 21.1428,
+    "lon": 79.0861
+  },
+  {
+    "name": "Bhavesh Solanki",
+    "phone": "+91-9876543228",
+    "address": "Gandhibagh, Nagpur",
+    "rating": 4.2,
+    "rate_per_km": 12,
+    "lat": 21.1451,
+    "lon": 79.0823
+  },
+  {
+    "name": "Tarun Agarwal",
+    "phone": "+91-9876543229",
+    "address": "Kamptee Road, Nagpur",
+    "rating": 4.5,
+    "rate_per_km": 13,
+    "lat": 21.1495,
+    "lon": 79.0902
+  }
+]

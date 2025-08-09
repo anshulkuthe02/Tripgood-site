@@ -1,0 +1,85 @@
+/* Enhanced Cab Map Styles */
+.map-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(147, 51, 234, 0.1));
+  backdrop-filter: blur(10px);
+}
+
+.map {
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.info-box {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 20px 28px;
+  border-radius: 16px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  min-width: 320px;
+  max-width: 90%;
+  animation: fadeInUp 0.4s ease-out;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+}
+
+.info-box h2 {
+  color: #ffffff;
+  margin-bottom: 12px;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+/* Popup enhancements */
+.leaflet-popup-content-wrapper {
+  background: rgba(0, 0, 0, 0.8) !important;
+  backdrop-filter: blur(20px) !important;
+  border-radius: 16px !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.leaflet-popup-tip {
+  background: rgba(0, 0, 0, 0.8) !important;
+}
+
+.info-box p {
+  margin: 4px 0;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #6b7280;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: #111827;
+}
+
+@keyframes fadeInUp {
+  0% {
+    transform: translate(-50%, 20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(-50%, 0);
+    opacity: 1;
+  }
+}

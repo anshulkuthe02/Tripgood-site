@@ -1,0 +1,53 @@
+{
+  "name": "tripgood-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.50.2",
+    "@tailwindcss/vite": "^4.1.10",
+    "axios": "^1.10.0",
+    "class-variance-authority": "^0.7.1",
+    "date-fns": "^4.1.0",
+    "firebase": "^11.9.1",
+    "framer-motion": "^12.19.1",
+    "i18next": "^25.3.2",
+    "i18next-browser-languagedetector": "^8.2.0",
+    "leaflet": "^1.9.4",
+    "leaflet-routing-machine": "^3.2.12",
+    "leaflet.fullscreen": "^4.0.0",
+    "leaflet.markercluster": "^1.5.3",
+    "lucide-react": "^0.522.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-i18next": "^15.6.0",
+    "react-icons": "^5.5.0",
+    "react-leaflet": "^5.0.0",
+    "react-router-dom": "^7.6.2",
+    "react-select": "^5.10.1",
+    "react-transition-group": "^4.4.5",
+    "tailwind-variants": "^1.0.0",
+    "tailwindcss-animate": "^1.0.7",
+    "tesseract.js": "^6.0.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.0",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.25.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.10",
+    "vite": "^6.3.5"
+  }
+}
