@@ -24,6 +24,16 @@ body {
   overflow-y: auto;
   min-height: 100vh;
   scroll-behavior: smooth;
+  /* Mobile optimizations */
+  width: 100%;
+  position: relative;
+}
+
+/* Mobile background fix */
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll; /* Better mobile performance */
+  }
 }
 
 /* Ensure smooth scrolling throughout the app */
@@ -41,6 +51,18 @@ html {
   background-attachment: fixed;
   background-repeat: no-repeat;
   min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+/* Mobile-specific tripgood-bg adjustments */
+@media (max-width: 768px) {
+  .tripgood-bg {
+    background-attachment: scroll;
+  }
 }
 
 .glass-container {
@@ -76,6 +98,26 @@ html {
 
 .text-glass-medium {
   color: rgba(255, 255, 255, 0.7);
+}
+
+/* Custom extra large text sizes */
+.text-10xl {
+  font-size: 10rem;
+  line-height: 1;
+}
+
+.text-11xl {
+  font-size: 12rem;
+  line-height: 1;
+}
+
+@media (max-width: 640px) {
+  .text-10xl {
+    font-size: 8rem;
+  }
+  .text-11xl {
+    font-size: 10rem;
+  }
 }
 
 /* HERO SECTION */
@@ -321,25 +363,9 @@ html {
   box-shadow: 0 0 0 2px #888;
 }
 
-/* SPLASH SCREEN STYLES – STRIPED BACKGROUND */
+/* SPLASH SCREEN STYLES – THREE VERTICAL COLOR BANDS */
 .splash-container {
-  /* More vibrant splash for trip planner */
-  background: linear-gradient(
-    120deg,
-    #1fa2ff 0%,
-    #12d8fa 33.33%,
-    #a6ffcb 66.66%,
-    #f9d423 100%
-  );
-  height: 100vh;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: left ;
-  color: white;
-  
-
+  /* Three vertical solid color bands */
   background: linear-gradient(
     to right,
     #1C77C3 0%,
@@ -349,6 +375,13 @@ html {
     #F39237 66.66%,
     #F39237 100%
   );
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  color: white;
 }
 
 .splash-content {
@@ -358,18 +391,22 @@ html {
 }
 
 .splash-logo {
-  font-size: 55px;
+  font-family: 'Long Cang', cursive;
+  font-size: clamp(3rem, 10vw, 5rem);
   font-weight: 600;
   margin-bottom: 1.5rem;
   color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  letter-spacing: -1px;
 }
 
 .splash-content h1 {
-  font-family: 'Ostwald', sans-serif;
-  font-size: 90px;
+  font-family: 'Oswald', sans-serif;
+  font-size: clamp(3rem, 12vw, 6rem);
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .splash-button {
