@@ -36,12 +36,12 @@ const HeroSection = () => {
   const handleMoreClick = () => navigate('/more-options');
 
   return (
-    <section id="hero-section" className="relative py-16 sm:py-24 md:py-32 lg:py-40 xl:py-56 px-4 sm:px-6 md:px-8">
+    <section id="hero-section" className="relative py-24 sm:py-32 md:py-40 lg:py-48 xl:py-64 px-6 sm:px-8 md:px-10 lg:px-12 xl:px-16">
       <div className="max-w-7xl mx-auto text-center">
         {/* Hero Title */}
-        <div className="mb-16 sm:mb-24 md:mb-32 lg:mb-40 xl:mb-48">
-          <div className="flex items-center justify-center gap-4 sm:gap-6 md:gap-8 lg:gap-10 mb-8 sm:mb-12 md:mb-16 lg:mb-20 xl:mb-24">
-            <Palmtree className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-32 lg:h-32 xl:w-40 xl:h-40 text-green-400 drop-shadow-2xl filter brightness-110" style={{
+        <div className="mb-20 sm:mb-28 md:mb-36 lg:mb-44 xl:mb-52 mt-12 sm:mt-16 md:mt-20 lg:mt-24 xl:mt-28">
+          <div className="flex items-center justify-center gap-2 sm:gap-3 md:gap-4 lg:gap-5 mb-12 sm:mb-16 md:mb-20 lg:mb-24 xl:mb-28 px-4 py-6">
+            <Palmtree className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-16 lg:h-16 xl:w-20 xl:h-20 text-green-400 drop-shadow-2xl filter brightness-110" style={{
               filter: 'drop-shadow(0 0 20px rgba(34, 197, 94, 0.5)) brightness(1.2) contrast(1.1)',
               textShadow: '0 0 30px rgba(34, 197, 94, 0.8)'
             }} />

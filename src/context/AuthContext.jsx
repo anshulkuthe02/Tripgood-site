@@ -1,43 +1,76 @@
-// src/context/AuthContext.jsx or inside App.jsx
-import { useState, useEffect } from "react";
-import { supabase, isSupabaseConfigured } from "../supabase"; // your configured client
+// src/context/AuthContext.jsx
+import React, { createContext, useContext, useState, useEffect } from "react";
+import { supabase, isSupabaseConfigured } from "../supabase";
 
-export default function AppWrapper() {
+const AuthContext = createContext();
+
+export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(true);
   const [location, setLocation] = useState(null);
 
   useEffect(() => {
-    if (!isSupabaseConfigured()) {
+    // Get initial session
+    if (isSupabaseConfigured()) {
+      supabase.auth.getSession().then(({ data }) => {
+        setUser(data?.session?.user || null);
+        setLoading(false);
+      }).catch(error => {
+        console.warn("Error getting session:", error.message);
+        setLoading(false);
+      });
+
+      // Listen to auth changes
+      const { data: listener } = supabase.auth.onAuthStateChange((_event, session) => {
+        setUser(session?.user || null);
+        setLoading(false);
+      });
+
+      return () => {
+        listener?.subscription?.unsubscribe();
+      };
+    } else {
       console.warn("Supabase is not configured, skipping authentication setup");
-      return;
+      setLoading(false);
     }
 
-    // Get logged in user
-    supabase.auth.getSession().then(({ data }) => {
-      setUser(data?.session?.user || null);
-    }).catch(error => {
-      console.warn("Error getting session:", error.message);
-    });
-
-    // Listen to auth changes
-    const { data: listener } = supabase.auth.onAuthStateChange((_event, session) => {
-      setUser(session?.user || null);
-    });
-
-    // Get live location
+    // Get user location
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
         pos => setLocation(pos.coords),
         err => console.warn("Geolocation error", err)
       );
     }
-
-    return () => {
-      listener?.subscription?.unsubscribe();
-    };
   }, []);
 
+  const signOut = async () => {
+    if (isSupabaseConfigured()) {
+      try {
+        await supabase.auth.signOut();
+      } catch (error) {
+        console.error("Error signing out:", error.message);
+      }
+    }
+  };
+
+  const value = {
+    user,
+    loading,
+    location,
+    signOut
+  };
+
   return (
-    <MainApp user={user} location={location} />
+    <AuthContext.Provider value={value}>
+      {children}
+    </AuthContext.Provider>
   );
-}
+};
+
+export const useAuth = () => {
+  const context = useContext(AuthContext);
+  if (!context) {
+    throw new Error('useAuth must be used within an AuthProvider');
+  }
+  return context;
+};

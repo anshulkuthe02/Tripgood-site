@@ -299,18 +299,6 @@ html {
   color: #4f46e5;
 }
 
-/* FOOTER */
-footer {
-  /* Add a travel-themed gradient */
-  background: linear-gradient(90deg, #1fa2ff 0%, #12d8fa 100%);
-  color: white;
-  padding: 1rem 2rem;
-  text-align: center;
-}
-
-.footer-note {
-  font-size: 0.9rem;
-}
 .icon-btn {
   display: flex;
   align-items: center;

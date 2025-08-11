@@ -5,7 +5,12 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  optimizeDeps: {
+    include: ["leaflet.fullscreen"]
+  },
+  server: {
+    mime: {
+      'application/javascript': ['js', 'mjs']
+    }
+  }
 })
-optimizeDeps: {
-  include: ["leaflet.fullscreen"]
-}

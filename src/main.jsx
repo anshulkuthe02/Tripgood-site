@@ -7,19 +7,21 @@ import { BrowserRouter } from 'react-router-dom';
 import AnimatedRoutes from './routes/AnimatedRoutes';
 import { NavigationProvider } from './context/NavigationContext';
 import { LanguageProvider } from './context/LanguageContext';
+import { AuthProvider } from './context/AuthContext';
 import './App.css';
-import BrandHeader from "./components/BrandHeader"; // adjust the path as needed
-
+import BrandHeader from "./components/BrandHeader";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
-      <NavigationProvider>
-        <LanguageProvider>
-          <BrandHeader />
-          <AnimatedRoutes />
-        </LanguageProvider>
-      </NavigationProvider>
+      <AuthProvider>
+        <NavigationProvider>
+          <LanguageProvider>
+            <BrandHeader />
+            <AnimatedRoutes />
+          </LanguageProvider>
+        </NavigationProvider>
+      </AuthProvider>
     </BrowserRouter>
   </React.StrictMode>
 );
