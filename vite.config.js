@@ -12,5 +12,19 @@ export default defineConfig({
     mime: {
       'application/javascript': ['js', 'mjs']
     }
+  },
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    target: 'es2022',
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ['react', 'react-dom'],
+          router: ['react-router-dom'],
+          maps: ['leaflet']
+        }
+      }
+    }
   }
 })

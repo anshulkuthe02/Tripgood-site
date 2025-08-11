@@ -12,13 +12,18 @@ export const supabase = isValidConfig ? createClient(supabaseUrl, supabaseKey) :
 // Helper function to check if Supabase is configured
 export const isSupabaseConfigured = () => isValidConfig;
 
-// Only attempt auth operations if Supabase is properly configured
-if (isValidConfig) {
-  try {
-    await supabase.auth.getUser();
-    // const phone = "+91XXXXXXXXXX"; // Must have +91 (or country code)
-    // await supabase.auth.signInWithOtp({ phone });
-  } catch (error) {
-    console.warn('Supabase auth initialization failed:', error.message);
+// Initialize auth check (moved to async function)
+const initializeAuth = async () => {
+  if (isValidConfig) {
+    try {
+      await supabase.auth.getUser();
+      // const phone = "+91XXXXXXXXXX"; // Must have +91 (or country code)
+      // await supabase.auth.signInWithOtp({ phone });
+    } catch (error) {
+      console.warn('Supabase auth initialization failed:', error.message);
+    }
   }
-}
+};
+
+// Call initialization (but don't await at top level)
+initializeAuth();
